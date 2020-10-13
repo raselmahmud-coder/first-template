@@ -1,0 +1,285 @@
+img{max-width: 100%}
+
+
+.main_menu{
+	width:80%;
+	background-color: orange;
+	margin: 50px auto;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    
+
+        
+
+
+    
+}
+
+.main_menu > ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	background-color: chocolate;
+	text-align: center;
+}
+.main_menu > ul > li{
+	display: inline-block;
+	transition: 0.3s;
+	position: relative;
+}
+
+.main_menu ul li:last-child a::after{
+	content: ''
+}
+.main_menu ul li a{
+	color:white;
+	text-decoration: none;
+	font-size: 22px;
+	display: block;
+	padding: 20px;
+	border-right:1px solid #222 ;
+}
+.main_menu ul li:hover{
+	background-color: black;
+}
+
+.submenu1{
+	background-color: pink
+}
+
+
+.main_menu > ul > li > ul{
+    position: absolute;
+    top: 200%;
+    left: 0;
+    visibility: hidden;
+    transition: 0.3s;
+    opacity: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    z-index: 99999;
+}
+.main_menu > ul > li > ul li{
+	border-bottom: 1px solid #aaa; 
+	   position: relative;
+}
+.main_menu > ul > li > ul li a{}
+.main_menu > ul > li:hover > ul{
+	visibility: visible;
+	opacity: 1;
+	top: 100%;
+}
+.submenu2{
+	background-color: gold;
+}
+
+.main_menu > ul > li > ul > li > ul{
+	position: absolute;
+	top:0;
+	left:150%;
+	transition: 0.2s;
+	transition-timing-function: cubic-bezier(1,0,0,.3);
+	visibility: hidden;
+	opacity: 0;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 200px;
+}
+.main_menu > ul > li > ul > li:hover ul{
+	left:100%;
+	visibility: visible;
+	opacity: 1;
+}
+.main_menu > ul > li > ul > li > ul li{}
+.main_menu > ul > li > ul > li > ul li a{}
+
+
+
+/*
+	Our Features SECTION css
+*/
+
+.our_features{
+	background-color: chocolate;
+	height: 300px;
+	width:100%;
+}
+.our_features .single_feature{}
+
+
+/*Slider CSS*/
+#wowslider-container{
+	max-width: 100%;
+}
+.ws_images img{
+	height: 600px;
+}
+
+
+.dhaka{
+	font-size: 50px;
+}
+
+.social_icons{
+	overflow: hidden;
+    clear: both;
+}
+.social_icons ul{
+	list-style: none;
+}
+.social_icons ul li{
+	display: inline-block;
+}
+.social_icons ul li a{
+	text-decoration:none; 
+}
+.social_icons ul li a i{}
+
+
+
+
+
+.main_content_section{
+	    width: 80%;
+    margin: 10px auto;
+    overflow: hidden;
+    clear: both;
+}
+.main_content{
+	width:70%;
+	float: left;
+}
+.right_sidebar{
+	width: 25%;
+    float: left;
+    margin-left: 5%;
+}
+
+ul.widget_links{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.widget_links li{
+	display: block;
+    margin-bottom: 10px;
+    background-color: #ddd;
+    transition: 0.3s;
+}
+.widget_links li a{
+	text-decoration: none;
+    color: #111;
+    padding: 14px;
+    display: block;
+}
+.widget_links li:hover{
+	background-color: #111;
+}
+.widget_links li:hover a{
+	color:white;
+}
+
+
+
+
+
+footer{
+	background-color: hsl(0, 0%, 10%);
+	padding: 40px;
+	overflow: hidden;
+}
+
+
+.footer_widgets_wrapepr .footer_widget:nth-child(1){
+	width:16%;
+	height: 200px;
+}
+
+.footer_widgets_wrapepr .footer_widget:nth-child(2){
+	width:16%;
+	height: 200px;
+}
+
+.footer_widgets_wrapepr .footer_widget:nth-child(3){
+	width:16%;
+	height: 200px;
+}
+
+.footer_widgets_wrapepr .footer_widget:nth-child(4){
+	width:46%;
+	height: 200px;
+}
+
+.footer_widget{
+	margin: 2px;
+	float: left;
+	color:white;
+}
+
+
+.footer_widget h3{
+	text-transform: uppercase;
+	color:white;
+	font-size: 20px;
+}
+
+
+
+.footer_widget ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.footer_widget ul li{
+	margin-bottom: 7px; 
+}
+.footer_widget ul li a{
+	color: hsl(0, 0%, 100%);
+	opacity: 0.5;
+	text-decoration: none;
+	font-size: 13px;
+}
+
+
+
+
+@media only screen and ( max-width: 1300px )
+{
+	body{
+		background-color: white;
+	}	
+}
+
+@media only screen and ( max-width: 992px )
+{
+	body{
+		background-color: green;
+	}
+	.footer_widgets_wrapepr .footer_widget:nth-child(1), 
+	.footer_widgets_wrapepr .footer_widget:nth-child(2), 
+	.footer_widgets_wrapepr .footer_widget:nth-child(3), 
+	.footer_widgets_wrapepr .footer_widget:nth-child(4) 
+	{
+   		 width: 45%;
+	}
+}
+
+@media only screen and ( max-width: 570px )
+{
+	body{
+		background-color: red;
+	}
+
+	.footer_widgets_wrapepr .footer_widget:nth-child(1), 
+	.footer_widgets_wrapepr .footer_widget:nth-child(2), 
+	.footer_widgets_wrapepr .footer_widget:nth-child(3), 
+	.footer_widgets_wrapepr .footer_widget:nth-child(4) 
+	{
+   		 width: 100%;
+	}
+
+}
