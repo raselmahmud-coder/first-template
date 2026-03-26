@@ -110,33 +110,27 @@
     </mxGraphModel>
   </diagram>
   <diagram name="1_Recovery_Problem" id="POd7SNikylIzkkE-qJJi">
-    <mxGraphModel dx="1393" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
+    <mxGraphModel dx="937" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;fontSize=22;fontStyle=1;fontColor=#111827;" value="Figure 1. Recovery problem and recover-and-resume concept" vertex="1">
-          <mxGeometry as_="geometry" height="30" width="700" x="30" y="20" as="geometry" />
-        </mxCell>
-        <mxCell id="3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;fontSize=13;fontColor=#4b5563;" value="Agent workflows fail after partial progress. Retry may duplicate side effects or resume from the wrong step." vertex="1">
-          <mxGeometry as_="geometry" height="25" width="950" x="30" y="50" as="geometry" />
-        </mxCell>
         <mxCell id="4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAFAFA;strokeColor=#D1D5DB;fontSize=12;fontColor=#111827;dashed=1;" value="" vertex="1">
-          <mxGeometry as_="geometry" height="280" width="480" x="40" y="140" as="geometry" />
+          <mxGeometry as_="geometry" height="270" width="480" x="40" y="150" as="geometry" />
         </mxCell>
         <mxCell id="5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F0FE;strokeColor=#4F81BD;fontSize=14;fontStyle=1;fontColor=#1f2937;" value="Product Agent" vertex="1">
-          <mxGeometry as_="geometry" height="50" width="120" x="50" y="170" as="geometry" />
+          <mxGeometry as_="geometry" height="50" width="120" x="57" y="163" as="geometry" />
         </mxCell>
         <mxCell id="6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#9CA3AF;fontSize=13;fontColor=#111827;" value="Validate Data" vertex="1">
-          <mxGeometry as_="geometry" height="50" width="120" x="210" y="170" as="geometry" />
+          <mxGeometry as_="geometry" height="50" width="120" x="210" y="163" as="geometry" />
         </mxCell>
         <mxCell id="7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#9CA3AF;fontSize=13;fontColor=#111827;" value="Generate Listing" vertex="1">
-          <mxGeometry as_="geometry" height="50" width="140" x="360" y="170" as="geometry" />
+          <mxGeometry as_="geometry" height="50" width="140" x="360" y="163" as="geometry" />
         </mxCell>
         <mxCell id="8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#9CA3AF;fontSize=13;fontColor=#111827;" value="Upload Product" vertex="1">
-          <mxGeometry as_="geometry" height="50" width="120" x="50" y="255" as="geometry" />
+          <mxGeometry as_="geometry" height="50" width="120" x="58" y="255" as="geometry" />
         </mxCell>
         <mxCell id="9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F0FE;strokeColor=#4F81BD;fontSize=14;fontStyle=1;fontColor=#1f2937;" value="Marketing Agent" vertex="1">
-          <mxGeometry as_="geometry" height="50" width="120" x="50" y="341" as="geometry" />
+          <mxGeometry as_="geometry" height="50" width="120" x="59" y="341" as="geometry" />
         </mxCell>
         <mxCell id="10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#9CA3AF;fontSize=13;fontColor=#111827;" value="Launch Campaign" vertex="1">
           <mxGeometry as_="geometry" height="50" width="140" x="210" y="341" as="geometry" />
@@ -154,13 +148,13 @@
           <mxGeometry as_="geometry" height="35" width="100" x="330" y="300" as="geometry" />
         </mxCell>
         <mxCell id="15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FDECEC;strokeColor=#E53935;fontSize=14;fontStyle=1;fontColor=#1f2937;" value="Failure after partial progress" vertex="1">
-          <mxGeometry as_="geometry" height="60" width="180" x="560" y="165" as="geometry" />
+          <mxGeometry as_="geometry" height="45" width="180" x="570" y="165" as="geometry" />
         </mxCell>
-        <mxCell id="16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FDECEC;strokeColor=#E53935;fontSize=14;fontStyle=1;fontColor=#1f2937;" value="Naive retry risks:&lt;br/&gt;• duplicated side effects&lt;br/&gt;• wrong resume point&lt;br/&gt;• lost latent state" vertex="1">
-          <mxGeometry as_="geometry" height="110" width="220" x="540" y="250" as="geometry" />
+        <mxCell id="16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FDECEC;strokeColor=#E53935;fontSize=14;fontStyle=1;fontColor=#1f2937;align=center;" value="Naive retry risks:&lt;br&gt;• duplicated side effects&lt;br&gt;• wrong resume point&lt;br&gt;• lost latent state" vertex="1">
+          <mxGeometry as_="geometry" height="70" width="220" x="550" y="235" as="geometry" />
         </mxCell>
-        <mxCell id="17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF7EA;strokeColor=#4CAF50;fontSize=14;fontStyle=1;fontColor=#1f2937;" value="Goal: resume from the correct step boundary&lt;br/&gt;with a consistent reconstructed state" vertex="1">
-          <mxGeometry as_="geometry" height="80" width="260" x="520" y="391" as="geometry" />
+        <mxCell id="17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF7EA;strokeColor=#4CAF50;fontSize=14;fontStyle=1;fontColor=#1f2937;" value="Goal: resume from the correct step boundary with a consistent reconstructed state" vertex="1">
+          <mxGeometry as_="geometry" height="80" width="260" x="530" y="340" as="geometry" />
         </mxCell>
         <mxCell id="18" edge="1" parent="1" source="5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#6B7280;strokeWidth=2;" target="6" value="">
           <mxGeometry as_="geometry" relative="1" as="geometry" />
@@ -179,14 +173,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="22" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#6B7280;strokeWidth=2;exitX=0.999;exitY=0.803;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="14" value="">
+        <mxCell id="22" edge="1" parent="1" source="8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#6B7280;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" target="14" value="">
           <mxGeometry as_="geometry" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="290" y="290" />
+              <mxPoint x="290" y="293" />
               <mxPoint x="290" y="318" />
               <mxPoint x="330" y="318" />
             </Array>
-            <mxPoint x="170" y="290" as="sourcePoint" />
+            <mxPoint x="180" y="290" as="sourcePoint" />
             <mxPoint x="328.12" y="315.725" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -219,7 +213,7 @@
           <mxGeometry as_="geometry" relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QlsLIwCv6iR5N97aRVQZ-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(212, 218, 231), rgb(212, 218, 231));&quot;&gt;Normal workflow execution&lt;/font&gt;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="30" width="190" x="175" y="420" as="geometry" />
+          <mxGeometry height="30" width="190" x="166" y="394" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
