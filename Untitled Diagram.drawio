@@ -44,7 +44,7 @@
           <mxGeometry height="54" width="220" x="70" y="334" as="geometry" />
         </mxCell>
         <mxCell id="ZmbnsqDmzhCc6FP1H_l_-14" parent="1" style="rhombus;strokeWidth=2;fontSize=18;whiteSpace=wrap;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Strategy?" vertex="1">
-          <mxGeometry height="120" width="120" x="120" y="440" as="geometry" />
+          <mxGeometry height="120" width="120" x="120" y="452" as="geometry" />
         </mxCell>
         <mxCell id="ZmbnsqDmzhCc6FP1H_l_-15" parent="1" style="whiteSpace=wrap;fontSize=18;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Restore checkpoint" vertex="1">
           <mxGeometry height="54" width="197" x="-34" y="570" as="geometry" />
